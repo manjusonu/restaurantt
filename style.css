@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+
+body{
+    background: url(./187166.jpg);
+    background-size: cover;
+    line-height: 1.5;
+    font-family: 'Dancing Script', cursive;
+    font-family: sans-serif;
+    color:white;
+    background-color:blueviolet;
+   
+}
+
+.col {
+    width: 800px;
+    float: right;
+    border: 1px solid none;
+}
+
+.col ul li {
+    width: 120px;
+    float: left;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.col ul li a {
+
+    text-decoration: none;
+    color: rgb(158, 4, 4);
+
+
+}
+
+.col ul li :hover {
+    background-color: rgb(134, 138, 126);
+}
+
+.col ul li a:hover {
+    color: white;
+
+}
+
+.row {
+    width: 300px;
+    height: 539px;
+    background-color: black;
+    padding: 55px;
+    padding-left: 3%;
+    opacity: 0.9;
+
+}
+
+.rowh4 {
+    text-align: center;
+
+    font-weight: normal;
+}
+
+.rowh8 {
+    text-align: justify;
+    font-weight: normal;
+    color: blue;
+}
+
+.row h5 {
+    text-align: center;
+    font-weight: normal;
+    margin: 40px auto;
+}
+
+.opt form,input[type="button"] {
+
+
+    padding: 10px;
+    text-align: center;
+    margin: -14px auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    background-color: black;
+}
+
+.first {
+    text-align: center;
+
+}
+
+.first h2 {
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    color: yellow;
+    font-family: fantasy;
+    font-weight: bold;
+    font-size: 100px;
+}
+
+.items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 30px 20px;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+}
+
+.item img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.item button {
+    background-color: blueviolet;
+    color: white;
+}
+
+.button {
+    background-color: blueviolet;
+    color: white;
+}
+
+.box ul li a {
+
+
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.box ul li :hover {
+    text-align: center;
+    background-color: rgb(134, 138, 126);
+}
+
+.box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 30px 20px;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+    padding-right: 200px;
+}
+
+.wd {
+    display: grid;
+    height: 300px;
+    width: 800px;
+    padding: auto;
+    margin-left: 100px;
+    margin-bottom: 590px;
+    padding-right: 200px;
+}
+.menu{
+    border: 1px solid black;
+    height:400px;
+    width:300px;
+    margin-left: 90px;
+     margin-top:120px ;
+     color: red;
+
+}
+.menu img{
+    color: turquoise;
+    height:148px;
+    width:163px;
+
+    margin-left: 57px;
+
+}
+.menu{
+    border: 1px solid black;
+    color: chartreuse;
+    margin-top: 148px;
+    margin-bottom: 200px;
+    margin-left: 300px;
+
+
+}
+
+
+
+
+
+h6{
+    color:blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 5px;
+    text-align: left;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1170px;
+    
+    margin: auto;
+}
+.rw{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+.footer{
+    background-color:black;
+padding:70px 0 ;
+}
+.footer-col{
+    width:25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: darkgrey;
+    text-transform: capitalize;
+    margin-bottom: 30px ;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before {
+ 
+    position:absolute;
+    left: 0;
+    border-radius: -10px;
+    background-color: white;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom:10px;
+}
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: violet;
+    text-decoration: none;
+    font-weight: 300;
+    color: thistle;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color:#ffffff;
+    padding-left: 10px;
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width:40px;
+    background-color:grey;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px ;
+    border-radius: 50%;
+    color: white;
+}
+p{
+    color: aqua;
+    text-align: center;
+}
